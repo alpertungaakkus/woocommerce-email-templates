@@ -1,0 +1,112 @@
+@media only screen and (max-width: 1676px) {
+	.single-thumbnail {
+		width: 25%;
+	}
+	footer .monsart-logo, footer .support-button {
+		width: 20%;
+	}
+}
+@media only screen and (max-width: 1346px) {
+	footer .monsart-logo, footer .support-button {
+		width: 17%;
+	}
+}
+@media only screen and (max-width: 1336px) {
+	.single-thumbnail {
+		width: 33%;
+	}
+	.standard-padding {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+}
+@media only screen and (max-width: 1156px) {
+	.more-soon {
+		display: none;
+	}
+	footer .monsart-logo, footer .support-button {
+		width: 20%;
+	}
+}
+@media only screen and (max-width: 1086px) {
+	.banner h1 {
+		font-size: 34px;
+	}
+}
+@media only screen and (max-width: 1023px) {
+	.single-thumbnail {
+		width: 50%;
+	}
+}
+@media only screen and (max-width: 1023px) {
+	#mc_embed_signup label {
+		display: none;
+	}
+	footer .monsart-logo, footer .support-button {
+		width: 29%;
+	}
+	#mc_embed_signup input[type="email"] {
+		width: 166px;
+	}
+}
+@media only screen and (max-width: 937px) {
+	.banner img {
+		max-width: 26%;
+	}
+}
+@media only screen and (max-width: 928px) {
+	.banner h1 {
+		padding-top: 9px;
+		font-size: 26px;
+	}
+	.banner h1 span {
+		font-size: 16px;
+	}
+}
+@media only screen and (max-width: 704px) {
+	.banner {
+		height: 350px;
+	}
+	header div {
+		width: 50%;
+	}
+	.woocommerce-logo {
+		display: none;
+	}
+	.banner h1 {
+		text-align: center;
+	}
+	.banner img,.banner h1 {
+		float: none;
+	}
+	.banner img {
+		max-width: 60%;
+	}
+}
+@media only screen and (max-width: 678px) {
+	.single-thumbnail {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 654px) {
+	.support-button a {
+		padding: 8px 16px;
+	}
+}
+@media only screen and (max-width: 611px) {
+	footer div.monsart-logo, footer div.support-button,
+	footer div#mc_embed_signup {
+		width: 100% !important;
+		text-align: center;
+		margin-bottom: 25px;
+	}
+	footer form {
+		display: inline-block;
+	}
+}
+@media only screen and (max-width: 532px) {
+	.banner h1 {
+		font-size: 21px;
+	    line-height: 28px;
+	}
+}

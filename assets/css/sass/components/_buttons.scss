@@ -1,0 +1,37 @@
+.btn-circle{
+    @include border-radius(50%);
+    &.btn-icon{
+        border: 2px solid $main-color;
+        width : 30px;
+        height : 30px;
+        font-size: 16px;
+    }
+}
+.btn-icon{
+    display: block;
+    background: none;
+    border: none;
+}
+.input-container{
+    position: relative;
+    .button{
+        position: absolute;
+        right: 1px;
+        top: 2px;
+        @include border-left-radius(0px);
+        @include border-right-radius(5px);
+        border: none;
+        height: 38px;
+        border-left: 1px solid #ddd;
+    }
+    input[type=text],input[type=password],input[type=email]{
+        @include border-radius(5px);
+    }
+}
+#monsart-emails{
+    input[type=text],input[type=email],input[type=password]{
+        height: 40px;
+        padding: 10px;
+        width: 100%;
+    }
+}

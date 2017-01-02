@@ -1,0 +1,157 @@
+.btn-circle {
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%; }
+  .btn-circle.btn-icon {
+    border: 2px solid #23282D;
+    width: 30px;
+    height: 30px;
+    font-size: 16px; }
+
+.btn-icon {
+  display: block;
+  background: none;
+  border: none; }
+
+.input-container {
+  position: relative; }
+  .input-container .button {
+    position: absolute;
+    right: 1px;
+    top: 2px;
+    -webkit-border-bottom-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    -webkit-border-top-left-radius: 0px;
+    border-top-left-radius: 0px;
+    background-clip: padding-box;
+    -webkit-border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background-clip: padding-box;
+    border: none;
+    height: 38px;
+    border-left: 1px solid #ddd; }
+  .input-container input[type=text], .input-container input[type=password], .input-container input[type=email] {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px; }
+
+#monsart-emails input[type=text], #monsart-emails input[type=email], #monsart-emails input[type=password] {
+  height: 40px;
+  padding: 10px;
+  width: 100%; }
+
+ma-image {
+  display: block;
+  position: relative; }
+  ma-image .remove, ma-image .edit {
+    position: absolute;
+    right: -15px;
+    cursor: pointer; }
+    ma-image .remove i, ma-image .edit i {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+  ma-image .remove {
+    top: -20px; }
+    ma-image .remove:hover {
+      color: #D63C3C;
+      border-color: #D63C3C; }
+  ma-image .edit {
+    top: 30px; }
+    ma-image .edit:hover {
+      color: #0073AA;
+      border-color: #0073AA; }
+
+body {
+  overflow: hidden; }
+
+#monsart-emails .panel {
+  width: 20%;
+  float: left; }
+
+#monsart-emails .preview-template {
+  margin: 0 auto; }
+
+#monsart-emails .preview-container {
+  height: 100vh;
+  background: #23282D;
+  overflow-y: scroll;
+  position: relative;
+  width: 80%;
+  float: left;
+  max-height: 100%; }
+
+#monsart-emails .preview-devices {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+  #monsart-emails .preview-devices ul {
+    display: inline-block;
+    background: #23282D;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none; }
+    #monsart-emails .preview-devices ul li {
+      margin: 15px;
+      float: left; }
+      #monsart-emails .preview-devices ul li a {
+        padding: 5px;
+        display: inline-block;
+        font-size: 22px;
+        color: #ffffff;
+        text-decoration: none; }
+        #monsart-emails .preview-devices ul li a.active {
+          border: 1px solid #fffffff;
+          border-radius: 2px;
+          -moz-border-radius: 2px;
+          -webkit-border-radius: 2px; }
+
+#monsart-emails ma-text {
+  display: block;
+  width: 100%; }
+  #monsart-emails ma-text textarea {
+    width: 100%;
+    height: 200px; }
+
+#preloader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+  #preloader .path {
+    stroke-dasharray: 700;
+    stroke-dashoffset: 700;
+    animation-name: dash;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 0s;
+    animation-direction: unset;
+    -moz-animation-name: dash;
+    -moz-animation-duration: 2s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-fill-mode: forwards;
+    -moz-animation-delay: 0s;
+    -moz-animation-direction: unset;
+    -webkit-animation-name: dash;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-direction: unset; }
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0; } }

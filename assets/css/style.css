@@ -1,0 +1,294 @@
+body {
+	font-family: 'Raleway', sans-serif;
+}
+*{-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+/*Standard Classes*/
+.standard-padding {
+	padding-left: 58px;
+	padding-right: 58px;
+}
+.fl-center {
+	text-align: center;
+}
+.fl-right {
+	float: right;
+}
+.fl-left {
+	float: left;
+}
+.inline-block {
+	display: inline-block;
+}
+.table-cel {
+	display: table-cell;
+	vertical-align: middle;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+img {
+	max-width: 100%;
+}
+.centered-block {
+	margin: 0px auto;
+	max-width: 1920px;
+	width: 100%;
+}
+/*Header*/
+header {
+	background-image: url(../images/header-bg.jpg);
+	background-position: top center;
+	background-repeat-y:no-repeat;
+	padding-top: 40px;
+	height: 68px;
+}
+header div {
+	width: 33%;
+	float: left;
+}
+header .monsart-logo {
+	margin-top: -11px;
+}
+header .woocommerce-logo {
+	margin-top: -1px;
+}
+.navigation > ul > li > a {
+	color: #fefefe;
+	font-size: 18px;
+	line-height: 21px;
+    padding-bottom: 24px;
+}
+.navigation > ul {
+	position: relative;
+}
+.navigation li .order-thumb-cont {
+	text-decoration: none;
+	color: #444444;
+	font-size: 14px;
+	display: block;
+}
+.navigation > ul > li:hover > ul.dropdown{
+	opacity: 1;
+	visibility: visible;
+}
+.dropdown {
+	visibility: hidden;
+	opacity: 0;
+	background: #ffffff;
+	min-width: 231px;
+	position: absolute;
+	right: 0px;
+	border: 1px solid #e8e8e8;
+	border-radius: 5px;
+	-webkit-transition: all .25s ease;
+       -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+         -o-transition: all .25s ease;
+            transition: all .25s ease;
+}
+/*Dropdown Arrow*/
+.dropdown:after, .dropdown:before {
+	bottom: 100%;
+	left: 86%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+.dropdown:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-bottom-color: #ffffff;
+	border-width: 15px;
+	margin-left: -15px;
+}
+.dropdown:before {
+	border-color: rgba(232, 232, 232, 0);
+	border-bottom-color: #e8e8e8;
+	border-width: 16px;
+	margin-left: -16px;
+}
+/* End Dropdown Arrow styles*/
+.dropdown li {
+	line-height: 55px;
+	padding-left: 25px;
+	padding-right: 15px;
+	border-top: 1px solid #e8e8e8;
+}
+.dropdown li:first-child {
+	border-top: 0px;
+}
+.dropdown li:hover {
+	background-color: #f1f1f2;
+}
+.dropdown li:hover a {
+	font-weight: 700;
+}
+/*Banner*/
+.banner {
+	background-image: url(../images/banner.jpg);
+	background-repeat-y: no-repeat;
+	background-position: top center;
+	height: 580px;
+	display: table;
+	width: 100%;
+}
+.banner img,.banner h1 {
+	float: left;
+}
+.banner h1 span {
+	display: block;
+	font-size: 19px;
+	color: #7f7f7f;
+	font-style: italic;
+	line-height: 25px;
+}
+.banner h1 {
+	font-size: 42px;
+	font-weight: 300;
+	text-align: left;
+	line-height: 54px;
+	padding-top: 53px;
+}
+/*Thumbnails*/
+.templates-thumbnails {
+	padding: 0px 15px;
+}
+.templates-thumbnails img {
+	display: block;
+	margin: 0px auto 0px;
+	max-width: 100%;
+}
+.thumbnail {	
+	max-height: 354px;
+	overflow: hidden;
+	max-width: 320px;
+	margin: 23px auto 0px;
+	border: 1px solid #f2f2f2;
+	border-radius: 5px;
+}
+.single-thumbnail {
+	min-width: 20%;
+        text-align: center;
+	margin-top: 96px;
+        
+}
+.single-thumbnail a {
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 700;
+	font-family: 'Roboto', sans-serif;
+	width: 45%;
+	max-width: 320px;
+	border: 1px solid #d8d8d8;
+	border-radius: 5px;
+	padding: 14px 0px;
+	margin-top: 11px;
+        text-decoration: none;
+        color: #484848;
+}
+.single-thumbnail a:hover {
+	background: #232325;
+	color: #ffffff;
+}
+.single-thumbnail .order-thumb-cont {
+	display: block;
+	text-decoration: none;
+	color: #484848;
+	font-size: 19px;
+	font-weight: 500;
+}
+/*Footer*/
+footer {
+	background: #09060f;
+	margin-top: 96px;
+	padding-bottom: 44px;
+	padding-top: 31px;
+}
+#mc_embed_signup {
+	background: none;
+	float: right;
+}
+#mc_embed_signup label,#mc_embed_signup input,
+#mc_embed_signup div.clear {
+	float: left;
+}
+#mc_embed_signup label {
+    font-size: 14px;
+    color: #c8c8c8;
+    font-weight: 400;
+    padding-top: 9px;
+    margin-right: 36px;
+    font-family: 'open sans', sans-serif;
+    letter-spacing: 0.25px;
+}
+#mc_embed_signup input {
+	text-transform: uppercase;
+	font-size: 12px;
+	height: 37px;
+	-webkit-appearance: none;
+   -moz-appearance:    none;
+   appearance:         none;
+   border: none;
+   margin-top: -3px;
+   font-family: 'Raleway',sans-serif;
+}
+#mc_embed_signup input[type="email"] {	
+   border-radius: 5px 0px 0px 5px;
+   padding: 0px;
+   background: #323232;
+   text-indent: 20px;
+   width: 232px;
+   color: #ffffff;
+   font-style: italic;
+}
+#mc_embed_signup input[type="submit"] {
+	cursor: pointer;
+	width: 53px;
+	padding: 0px;
+	background: url(../images/submit.png) no-repeat;
+}	
+input:focus {   
+    border-color: rgba(199, 65, 171, 0.8);
+    box-shadow: 0 1px 1px rgba(199, 65, 171, 0.075) inset, 0 0 8px rgba(199, 65, 171, 0.6);
+    outline: 0 none;
+}
+.more-soon span {
+    color: #e9e9e9;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+}
+.support-button a {
+    font-size: 11px;
+    color: #ffffff;
+    text-decoration: none;
+    background: #40bfeb;
+    padding: 10px 26px;
+    display: inline-block;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: 'Roboto',sans-serif;
+    letter-spacing: 1px;
+}
+footer .monsart-logo {
+	margin-top: -5px;
+	width:25%;
+}
+footer .monsart-logo img {
+	max-width: 177px;
+}
+footer .support-button {
+	width: 25%;
+	margin-top: 4px;
+}
+/*Clearfix*/
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+ }

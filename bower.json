@@ -1,0 +1,28 @@
+{
+  "name": "woocommerce-email-customize",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "MonsArt <112@alpertungaakkus.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-ui-router": "^0.3.1",
+    "webfontloader": "^1.6.26",
+    "angular-ui-select": "^0.19.6",
+    "bower": "*",
+    "install": "^1.0.4",
+    "angular-sanitize": "^1.5.8",
+    "ngWYSIWYG": "^0.6.2"
+  }
+}

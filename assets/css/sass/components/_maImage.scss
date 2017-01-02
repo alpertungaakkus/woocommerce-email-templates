@@ -1,0 +1,32 @@
+ma-image{
+    display: block;
+    position: relative;
+    .remove,.edit{
+        position: absolute;
+        right: -15px;
+        cursor: pointer;
+        
+        i{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            @include transform(translate(-50%, -50%))
+        }
+    }
+    .remove{
+        top : -20px;
+        &:hover{
+            color : $accent-color;
+            border-color: $accent-color
+        }
+    }
+    .edit{
+        top : 30px;
+        &:hover{
+            color : $hover-color;
+            border-color: $hover-color;
+        }
+    }
+        
+    
+}
